@@ -18,8 +18,10 @@ int main() {
     default: while( e < (ende-2)){        
         t = t + e;
         e++;
-        printf("\n0, 1, 1, %i", t);
+        printf("\n0, 1, 1");
+        printf(", %i", t);
       }
-  }
+  } 
+  printf("\n\n");
   return 0;
 }
