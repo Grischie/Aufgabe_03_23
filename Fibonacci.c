@@ -15,10 +15,12 @@ int main() {
       break;
     case 2: printf("\n1");
       break;
-    default: while( e < (ende-2)){        
+    default: 
+      printf("\n0, 1, 1");
+      while( e < (ende-2)){        
         t = t + e;
         e++;
-        printf("\n0, 1, 1");
+        
         printf(", %i", t);
       }
   } 
