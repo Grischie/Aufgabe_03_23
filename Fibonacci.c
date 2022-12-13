@@ -2,8 +2,8 @@
 
 int main() {
   int ende, t, e;
-  t = 2;
-  e = 0;
+  t = 1;
+  e = 1;
   printf("\n\nFibonacci-Zahl");
   printf("\nWie viel Folgen möchten Sie? ");
   scanf ("%i",&ende);
@@ -17,7 +17,7 @@ int main() {
       break;
     default: 
       printf("\n0, 1, 1");
-      while( e < (ende-2)){        
+      while( e < (ende-1)){        
         t = t + e;
         e++;
         
