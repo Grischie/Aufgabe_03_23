@@ -13,9 +13,9 @@ int main() {
   switch(ende) {
     case 0: printf("\n0");
       break;
-    case 1: printf("\n1");
+    case 1: printf("\n0, 1");
       break;
-    case 2: printf("\n1");
+    case 2: printf("\n0, 1, 1");
       break;
     default: 
       printf("\n0, 1, 1");
