@@ -17,8 +17,8 @@ int main() {
     default:  ende = ende - 2;
       while( e < ende){
                   
-        t = t + e
-        e++
+        t = t + e;
+        e++;
         printf("\n0, 1, 1, %i", t);
       }
   }
