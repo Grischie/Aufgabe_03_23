@@ -3,6 +3,7 @@
 int main() {
   int ende, t, e;
   t = 2;
+  e = 0;
   printf("\n\nFibonacci-Zahl");
   printf("\nWie viel Folgen möchten Sie? ");
   scanf ("%i",&ende);
