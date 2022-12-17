@@ -15,8 +15,6 @@ int main() {
       break;
     case 1: printf("\n0, 1");
       break;
-    case 2: printf("\n0, 1, 1");
-      break;
     default: 
       printf("\n0, 1, 1");
       while( e < (ende-2)){
